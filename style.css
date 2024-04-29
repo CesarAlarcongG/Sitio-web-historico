@@ -1,0 +1,31 @@
+body{
+ margin: 0;
+}
+.imagen{
+    width: 100%; /*El ancho de la imagen se ajusta al tamaños de la página*/
+    height: auto; /*El largo de la imagen se ajusta al tamaños de la página*/
+    margin: 0;
+    position: absolute;
+}
+
+.contenidoCa{
+    position: relative;
+    top: 0;
+    margin: 0;
+    height: 100vh; 
+}
+.menu{
+    list-style: none;
+    position: relative;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: black;
+    border-radius: 20%;
+    padding: 10px 10px;
+    left: 50%;
+    transform: translateX(-50%); /* Centra la lista horizontalmente */
+}
